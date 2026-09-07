@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="500" viewBox="0 0 1280 500" role="img" aria-labelledby="title desc">
+  <title id="title">AureliaEdge — Give your team time for bigger things.</title>
+  <desc id="desc">Gold typography on midnight blue, with an orbital diagram connecting AI, cloud, and operations. Diagnose, build, measure, scale.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#c9a24b" stop-opacity=".16"/><stop offset="1" stop-color="#03060f" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#fff0a6"/><stop offset=".5" stop-color="#c9a24b"/><stop offset="1" stop-color="#827126"/></linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity=".025"/></pattern>
+  </defs>
+  <rect width="1280" height="500" rx="20" fill="#03060f"/>
+  <rect width="1280" height="500" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1030" cy="205" rx="440" ry="350" fill="url(#glow)"/>
+  <path d="M48 1H1232" stroke="url(#gold)" stroke-opacity=".7"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="64" y="75" fill="#f6f2e9" font-size="27" font-weight="700">Aurelia<tspan fill="#c9a24b">Edge</tspan></text>
+    <text x="64" y="119" fill="#aaa6b8" font-size="12" letter-spacing="3.1">AI + CLOUD · OPERATIONAL TRANSFORMATION</text>
+    <g font-family="Georgia,Times New Roman,serif" font-size="62">
+      <text x="60" y="214" fill="#f6f2e9">Give your team time</text>
+      <text x="60" y="286" fill="#e3c576" font-style="italic">for bigger things.</text>
+    </g>
+    <text x="64" y="339" fill="#bbb8c7" font-size="18">Practical systems. Less busywork. Measurable value.</text>
+    <path d="M64 380H690" stroke="#c9a24b" stroke-opacity=".22"/>
+    <g font-size="14">
+      <text x="64" y="420" fill="#c9a24b">01 <tspan fill="#edeaf2" dx="7">Diagnose</tspan></text>
+      <text x="234" y="420" fill="#c9a24b">02 <tspan fill="#edeaf2" dx="7">Build</tspan></text>
+      <text x="374" y="420" fill="#c9a24b">03 <tspan fill="#edeaf2" dx="7">Measure</tspan></text>
+      <text x="547" y="420" fill="#c9a24b">04 <tspan fill="#edeaf2" dx="7">Scale</tspan></text>
+    </g>
+    <g transform="translate(1000 240)">
+      <circle r="165" fill="none" stroke="#c9a24b" stroke-opacity=".13"/>
+      <circle r="125" fill="none" stroke="#c9a24b" stroke-opacity=".22"/>
+      <circle r="86" fill="none" stroke="url(#gold)" stroke-opacity=".6"/>
+      <path d="M0-165V-86M-143 83L-75 43M143 83L75 43" stroke="#c9a24b" stroke-opacity=".6"/>
+      <path d="M-30 30L0-38L30 30M-20 9H20" fill="none" stroke="url(#gold)" stroke-width="3"/>
+      <circle cy="-165" r="5" fill="#e3c576"/><circle cx="-143" cy="83" r="5" fill="#e3c576"/><circle cx="143" cy="83" r="5" fill="#e3c576"/>
+      <g font-size="11" letter-spacing="2" fill="#c6c1ce" text-anchor="middle">
+        <text y="-186">AI</text><text x="-143" y="111">CLOUD</text><text x="143" y="111">OPS</text>
+      </g>
+    </g>
+    <text x="1000" y="456" text-anchor="middle" fill="#898493" font-size="12" letter-spacing="1.5">THEAURELIAEDGE.COM</text>
+  </g>
+</svg>
